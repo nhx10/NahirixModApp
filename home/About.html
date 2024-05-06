@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/about.css">
+    <title>NahirixModApp</title>
+</head>
+<body>
+    <div class="back-header">
+    <header>
+        <img src="" alt="">
+        <h1 href="" class="logo">Nahirix<span class="mod">Mod</span><span class="app">App</span></h1>
+        <nav>
+            <ul class="navbar">
+                <li onclick=hide()><a href="#" class="close"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="/index.html" class="ulnav">Home</a></li>
+                <li><a href="#" class="ulnav">Contact us</a></li>
+                <li><a href="#" class="ulnav" onclick=En()>En</a></li>
+                <li><a href="#" class="ulnav" onclick=Ar()>Ar</a></li>
+            </ul>
+            <ul>
+                <li class="mobile"><a href="index.html">Home</a></li>
+                <li class="mobile"><a href="#">Contact us</a></li>
+                <li class="mobile"><a href="#" onclick=En()>En</a></li>
+                <li class="mobile"><a href="#" onclick=Ar()>Ar</a></li>
+                <li class="menu" onclick=show()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30" style="color: white"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
+    <section class="main">
+        <div class="En text-en main" dir="ltr">
+            <h1 class="En">What is NahirixModApps?</h1>
+            <p>NahirixModApp is a website that serves as a great resource for developers and enthusiasts interested in web development and applications, offering a variety of paid apps and games for free. Additionally, this site is considered a valuable reference for those looking to enhance their skills in website and app design and programming. NahirixModApp publishes HTML and CSS codes along with helpful educational materials for beginners and professionals alike. By utilizing the provided resources, users can learn the latest technologies and practices in the world of web development and continuously improve their skills. Thus, it can be said that NahirixModApp plays an important role in empowering the tech community and providing valuable content for developers and technology enthusiasts NahirixModApp.</p>  
+            <div class="main2">
+                <h1>Who is the owner of the website?</h1>
+                <p>The owner of the NahirixModApp website is Mohammed Ryan Al Nahiri, born on June 26, 2009. He is currently 14 years old. Originally from Morocco, specifically from the city of Tangier, Mohammed is currently in the 9th grade of middle school. Despite his young age, he has a great passion for web development and application design. Mohammed serves as an example of ambitious youth striving to achieve their dreams in the world of technology. He excels in providing valuable content for both beginner and professional developers alike by publishing website and application codes along with numerous helpful educational materials. Thanks to his dedication and creativity, Mohammed contributes to empowering the tech community and providing learning and development opportunities in the field of information technology.</p>
+            </div>
+        </div>
+        <div class="Ar text-ar main" dir="rtl">
+            <h1>ماهو موقع NahirixModApp?</h1>
+            <p>NahirixModApp هو موقع يمثل مصدرًا رائعًا للمطورين والمهتمين بتطوير الويب والتطبيقات، حيث يقدم مجموعة متنوعة من التطبيقات والألعاب المدفوعة مجانًا. بالإضافة إلى ذلك، يُعتبر هذا الموقع مرجعًا قيّمًا لمن يرغبون في تحسين مهاراتهم في تصميم وبرمجة المواقع والتطبيقات. يقوم NahirixModApp بنشر أكواد HTML و CSS ومواد تعليمية مفيدة للمبتدئين والمحترفين على حد سواء. من خلال استخدام الموارد المقدمة، يمكن للمستخدمين تعلم أحدث التقنيات والممارسات في عالم تطوير الويب والحصول على فرصة لتحسين مهاراتهم بشكل مستمر. لذا، يمكن القول إن  يلعب دورًا هامًا في تمكين المجتمع التقني وتوفير المحتوى القيم للمطورين والمهتمين بعالم التقنية</p>
+            <div class="main2">
+                <h1>من صاحب الموقع NahirixModApp?</h1>
+                <p>مالكُ موقع NahirixModApp هو محمد ريان النهيري، وُلد في 26 يونيو 2009، ويبلغ حالياً من العمر 14 عاماً. ينحدر من المغرب، تحديداً من مدينة طنجة. بالرغم من صغر سنه، إلا أنه يتمتع بشغف كبير بمجال تطوير الويب وتصميم التطبيقات. يُعَدُّ محمد مثالاً للشباب الطموح الذين يسعون لتحقيق أحلامهم في عالم التكنولوجيا. يتميز بقدرته على تقديم محتوى قيم ومفيد للمطورين المبتدئين والمحترفين على حد سواء، من خلال نشر أكواد مواقع وتطبيقات والعديد من المواد التعليمية المفيدة. بفضل تفانيه وإبداعه، يسهم ريان في تمكين المجتمع التقني وتوفير فرص التعلم والتطوير في مجال تكنولوجيا المعلومات.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    function show(){
+        const navbar = document.querySelector('.navbar')
+        navbar.style.display = 'flex'
+    }
+    function hide(){
+        const navbar = document.querySelector('.navbar')
+        navbar.style.display = 'none'
+    }
+    function En(){
+        const En = document.querySelector('.En')
+        En.style.display = 'Block'
+        const Ar = document.querySelector('.Ar')
+        Ar.style.display = 'none'
+    }
+    function Ar(){
+        const Ar = document.querySelector('.Ar')
+        Ar.style.display = 'block'
+        const En = document.querySelector('.En')
+        En.style.display = 'none'
+    }
+</script>
+</html>
